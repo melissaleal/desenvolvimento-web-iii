@@ -1,0 +1,47 @@
+#cabecalhoPrincipal{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+#cabecalhoPrincipal h1{
+    color: rgb(180, 103, 103);
+}
+
+div#produtos{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 40px;
+    justify-content: center;
+}
+
+div.cardProduto{
+    width: 300px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.divtxt h2{
+    color: rgb(72, 53, 53);
+}
+
+.divtxt h3{
+    font-weight: bold;
+    color: rgb(134, 32, 32);
+}
+
+div.divimg{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.produtoimg{
+    width: 25%;
+    margin: auto;
+}
