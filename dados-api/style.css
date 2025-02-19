@@ -1,0 +1,26 @@
+/*
+Autora ----------- Melissa Leal (https://github.com/melissaleal)
+Instituicao ------ FATEC Marilia
+Curso ------------ Desenvolvimento de Software Multiplataforma 
+Materia ---------- Desenvolvimento Web III
+Conteudo --------- Extraindo dados de API
+Atividade -------- Exercicio de aula
+Data de criacao -- 19/02/2024
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, tr, th, td{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: lightgray;
+}
+
+td, th{
+    padding: 5px;
+}
